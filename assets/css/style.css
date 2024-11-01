@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2015, 3:50:30 PM
+    Author     : Simple Solutions
+*/
+
+.sip-image-results{
+    width: 100%;
+}
+
+.sip-item-result{
+    width: 19%;
+    display: inline-block;
+        padding: 1% 1% 0px 0px;
+        position: relative;
+}
+
+.sip-item-result img{
+    width: 100%;
+    max-width: 320px;
+}
+
+.sip-image-results{
+    display: inline-block;
+}
+
+.sip-col{
+    width: 99%;
+    display: inline-block;
+}
+.sip-col-left{
+    width: 75%;
+    float: left;
+}
+
+.sip-col-right{
+    width: 20%;
+    float: left;
+    padding: 15px;
+
+}
+
+.sip-col-right > form{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.descrip{
+    text-align: center;
+
+}
+
+.descrip p{
+    margin: 0px;
+}
+.label{
+    position: absolute;
+    top: 13px;
+    /* margin-top: -19.4%; */
+    padding: 5px 15px;
+    right: 13px;
+    color: #FFF;
+    font-weight: bold;
+    /*background: rgba(0,0,0,0.5);*/
+    text-transform: capitalize;
+}
+.simple-btn{
+        background: #2a2a2a;
+    border: 0;
+    color: #fff;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.simple-btn:hover{
+    background: orange;
+}
+
+.load-btn{
+    text-align: center;
+}
+.load-btn input{
+    font-size: 20px;
+    padding: 10px 20px !important;
+}
+
+.sip-col-right img {
+    width: 100%;
+}
+
+.instagram-token{
+    background:  #3b5998;
+    padding: 10px;
+    display: inline-block;
+     border-radius: 5px;
+
+}
+
+.instagram-token span{
+ color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    vertical-align: -webkit-baseline-middle;
+
+}
+.instagram-token img{
+    width: 30px;
+    float: left;
+}
+
+.change-token{
+    padding: 15px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+.profile-img{
+    padding: 15px 0px;
+}
+.item-collapse{
+    display: none;
+}
+
+.sip-col-left h1{
+    padding: 15px 0px 0px 0px;
+    font-size: 22px !important;
+    margin: 0px;
+}
+.token-input{
+    font-size: 12px;
+    width: 350px;
+}
+.separator-div{
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    margin: 15px 0px;
+        width: 96%;
+}
+.separator-div h2{
+    margin: 0px;
+}
+#token-div{
+    padding: 10px 0px;
+}
+
+.video-color{
+     background: rgba(101,156,239,0.5);
+}
+.post-color{
+    /*background: rgba(255,153,0,0.5);*/
+    background: rgba(0,0,0,0.5);
+}
+@media (max-width: 1000px)  {
+    .sip-item-result{
+        width: 24%;
+    }
+}
+
+@media (max-width: 770px)  {
+    .sip-item-result{
+        width: 49%;
+    }
+
+    .sip-col-left{
+        width: 100%;
+    }
+
+    .sip-col-right{
+    width: 70%;
+    padding: 15px 35px;
+
+    }
+}
